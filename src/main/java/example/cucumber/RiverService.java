@@ -1,4 +1,4 @@
-package example.cucumber.river;
+package example.cucumber;
 
 public class RiverService {
 	/**

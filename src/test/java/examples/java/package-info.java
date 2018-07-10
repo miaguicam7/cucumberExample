@@ -5,4 +5,4 @@
  * @author Miguel Ángel Aguilar
  *
  */
-package examples.java.river.step;
+package examples.java;

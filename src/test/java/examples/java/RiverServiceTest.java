@@ -1,4 +1,4 @@
-package examples.java.river;
+package examples.java;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -16,6 +16,6 @@ import org.junit.runner.RunWith;
  * 
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "classpath:example" })
+@CucumberOptions(features = { "classpath:example/cucumber/river.feature" })
 public class RiverServiceTest {
 }

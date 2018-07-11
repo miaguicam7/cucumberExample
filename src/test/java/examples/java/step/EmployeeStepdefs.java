@@ -18,8 +18,8 @@ public class EmployeeStepdefs {
 		this.employeeList = employeeList;
 	}
 
-	@Then("^the organization will have (\\d+) Sr. Dev and (\\d+) Jr. Dev$")
-	public void the_organization_will_have_Sr_Dev_and_Jr_Dev(int expTotalSrDev, int expTotalJrDev) throws Throwable {
-		assertEquals(employeeList.size(), 13);
+	@Then("^the organization will have (\\d+) employees$")
+	public void the_organization_will_have_Sr_Dev_and_Jr_Dev(int arg1) throws Throwable {
+		assertEquals(employeeList.size(), arg1);
 	}
 }

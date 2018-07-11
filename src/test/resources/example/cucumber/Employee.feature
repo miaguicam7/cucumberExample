@@ -16,4 +16,4 @@ Feature: An organization recruits few more employees
 				| Juan11 | Carpintero11 |
 				| Juan12 | Carpintero12 |
 				| Juan13 | Carpintero13 |
-	  Then the organization will have 205 Sr. Dev and 5150 Jr. Dev
+	  Then the organization will have 13 employees
